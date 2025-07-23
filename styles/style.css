@@ -249,6 +249,7 @@ main{
         margin: auto;
         margin-top: 13px;
     }
+
     .nav-logo{
         width: 63px;
         height: 38px;
@@ -290,6 +291,7 @@ main{
         max-width: 361px;
         margin: auto;
     }
+
     .cart-section{
         grid-template-columns: repeat(2,1fr);
         column-gap: 20px;
@@ -337,6 +339,26 @@ main{
 
    .flower-section{
     flex-direction: column;
+    margin-top: 0;
+   }
+
+   .flower-left-img{
+    width: 358px;
+    height: 396px;
+    margin-top: 42px;
+    margin-bottom: 18px;
+   }
+
+   .flower-heading{
+    font-size: 24px;
+   }
+
+   .flower-list{
+     font-size: 14px;
+   }
+
+   .flower-list li{
+    margin-left: 20px;
    }
 
 }
